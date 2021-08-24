@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+body{
+    background: linear-gradient(to right, rgb(151, 5, 156),rgb(223, 50, 151));
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 15px;   
+    margin: auto;
+}
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+input{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    padding:10px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+header{
+    display: inline;
+    width: 90%;
+    display: flex;
+    align-self:flex-start;
+    justify-content: space-between;
+    background-color:cyan;
+    height: 7vh;
+    overflow: hidden;
+}
+.logo{
+    margin: auto 0px auto 2%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: auto 10 auto 10;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}

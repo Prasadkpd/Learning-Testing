@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /3rd_Session/
+
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-like
+
+RewriteRule ^(.+)$ index.php?=$1 [QSA,1]
